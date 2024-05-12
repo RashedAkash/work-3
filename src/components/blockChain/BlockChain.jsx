@@ -6,6 +6,12 @@ const BlockChain = () => {
   return (
     <section>
       <Container>
+        <div className="lg:w-[1156px] mx-auto mb-[40px]">
+          <h1 className="primary-color   font-semibold text-[51px]">
+            Unlock the potential of 
+            <span className="text-[#A274FF]"> blockchain</span> technology.
+          </h1>
+        </div>
         <div className="mb-28   lg:w-[824px] mx-auto  ">
           <div className="flex items-center gap-7  mb-5 ">
             <div className="w-[150px] h-[150px]  custom-box-shadow rounded-[40px] relative ">
