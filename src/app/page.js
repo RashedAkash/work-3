@@ -5,7 +5,7 @@ import Connect from "@/components/connect/Connect";
 const page = () => {
   return (
     <div>
-      <BlockChain />
+      {/* <BlockChain /> */}
       <Connect />
       
     </div>

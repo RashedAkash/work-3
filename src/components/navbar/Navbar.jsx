@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <Container>
-      <nav className="h-[140px] items-center justify-between flex  lg:px-[218px]">
+      <nav className="h-[140px] items-center lg:justify-between lg:px-10 xl:gap-[360px] xl:px-[218px] flex ">
         <div>
           <Image src="/image/logo.png" alt="img" width={135} height={47} />
         </div>
