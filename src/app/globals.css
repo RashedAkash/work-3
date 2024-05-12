@@ -6,3 +6,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+.custom-box-shadow {
+    --box-shadow-x: 8px;
+    --box-shadow-y: 40px;
+    --box-shadow-blur: 80px;
+    --box-shadow-spread: -16px;
+    --box-shadow-color: #00000080;
+
+    box-shadow: var(--box-shadow-x) var(--box-shadow-y) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
+}
+.primary-color{
+  color: #000;
+}

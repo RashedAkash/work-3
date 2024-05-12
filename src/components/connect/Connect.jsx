@@ -7,13 +7,13 @@ const Connect = () => {
       <Container>
         <div>
           <div className=" md:w-[425px] mx-auto h-[80px] mb-[45px]">
-            <h1 className="text-[#000]   font-semibold text-[51px]">
+            <h1 className="primary-color   font-semibold text-[51px]">
               <span className="text-[#A274FF]">Connect </span>
               with us!
             </h1>
           </div>
-          <div className="bg-white md:w-[643px] mx-auto rounded-[30px] px-[64px] py-[75px]  shadow-2xl">
-            <div className="font-semibold text-[18px] text-[#000] mb-[38px]">
+          <div className="bg-white md:w-[643px] mx-auto rounded-[30px] px-[64px] py-[75px]  custom-box-shadow">
+            <div className="font-semibold text-[18px] primary-color mb-[38px]">
               <p className="mb-[20px] text-center">
                 Collaborate with us at w3rk to unlock exciting possibilities in
                 the Web 3.0 space.
