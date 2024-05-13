@@ -6,7 +6,7 @@ const Connect = () => {
     <section>
       <Container>
         <div>
-          <div className=" tiny:w-[325px] tiny:text-center sm:w-[425px] md:w-[425px] lg:w-[425px] xl:w-[460px] 2xl:w-[460px] 3xl:w-[460px]  mx-auto  mb-[45px]">
+          <div className=" tiny:w-[325px] tiny:text-center sm:text-center sm:w-[425px] md:w-[425px] lg:w-[425px] xl:w-[460px] 2xl:w-[460px] 3xl:w-[460px]  mx-auto  mb-[45px]">
             <h1 className="secondary-color tiny:text-[24px] sm:text-[24px]   font-semibold md:text-[40px] lg:text-[51px] xl:text-[56px] 2xl:text-[56px] 3xl:text-[56px]">
               <span className="text-[#A274FF]">Connect </span>
               with us!
