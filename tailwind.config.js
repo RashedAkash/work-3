@@ -14,7 +14,7 @@ module.exports = {
       },
     },
     screens: {
-      tiny: { min: "250px", max: "424px" },
+      tiny: { min: "300px", max: "424px" },
       sm: { min: "425px", max: "767px" },
       md: { min: "768px", max: "1023px" },
       lg: { min: "1024px", max: "1279px" },
