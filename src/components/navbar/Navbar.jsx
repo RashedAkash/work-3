@@ -24,10 +24,10 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="#">Find work</Link>
+                <Link href="/findWork">Find work</Link>
               </li>
               <li>
-                <Link href="#">Find talent</Link>
+                <Link href="/findTalent">Find talent</Link>
               </li>
             </ul>
           </div>
@@ -42,10 +42,10 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="#">Find work</Link>
+              <Link href="/findWork">Find work</Link>
             </li>
             <li>
-              <Link href="#">Find talent</Link>
+              <Link href="/findTalent">Find talent</Link>
             </li>
           </ul>
         </div>

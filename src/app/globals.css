@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #00000010;
+}
 .custom-box-shadow {
     --box-shadow-x: 8px;
     --box-shadow-y: 40px;
@@ -15,6 +18,16 @@
 
     box-shadow: var(--box-shadow-x) var(--box-shadow-y) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
 }
+.sidebar-box-shadow {
+    --box-shadow-x: 24px;
+    --box-shadow-y: -20px;
+    --box-shadow-blur: 56px;
+    --box-shadow-spread: 0px;
+    --box-shadow-color: #0000000D;
+
+    box-shadow: var(--box-shadow-x) var(--box-shadow-y) var(--box-shadow-blur) var(--box-shadow-spread) var(--box-shadow-color);
+}
+
 .primary-color{
   color: #000;
 }
