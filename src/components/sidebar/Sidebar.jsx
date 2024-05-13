@@ -1,7 +1,7 @@
 const Sidebar = () => {
   return (
     <nav>
-      <div className="bg-white h-[591px] rounded-[20px] w-[250px]">
+      <div className="bg-white w-[250px] h-[591px] rounded-[20px] px-[23px] pt-[29px]">
         <div className="mb-[6px]">
           <button className="text-[12px] font-semibold primary-color sidebar-box-shadow bg-[#FFAEAE80] w-[204px] h-10 rounded-[10px] ">
             Blockchain Development
