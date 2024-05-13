@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex justify-between mt-28">
           <div></div>
           <div>
-            <p>2024 w3rk. All Rights Reserved.</p>
+            <p  >2024 w3rk. All Rights Reserved.</p>
           </div>
           <div>
             <div className="flex gap-[17px] justify-center">
