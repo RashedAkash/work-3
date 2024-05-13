@@ -6,15 +6,15 @@ const BlockChain = () => {
   return (
     <section>
       <Container>
-        <div className="lg:w-[1156px] mx-auto mb-[40px]">
-          <h1 className="primary-color   font-semibold text-[51px]">
-            Unlock the potential of 
+        <div className="  md:w-[1020px] lg:w-[750px]  xl:w-[1156px] 2xl:w-[1156px] 3xl:w-[1156px]  mx-auto mb-[40px]">
+          <h1 className="primary-color text-center  tiny:text-[24px] sm:text-[24px]   font-semibold md:text-[30px] lg:text-[35px] xl:text-[51px] 2xl:text-[51px] 3xl:text-[51px]">
+            Unlock the potential of
             <span className="text-[#A274FF]"> blockchain</span> technology.
           </h1>
         </div>
-        <div className="mb-28   lg:w-[824px] mx-auto  ">
-          <div className="flex items-center gap-7  mb-5 ">
-            <div className="w-[150px] h-[150px]  custom-box-shadow rounded-[40px] relative ">
+        <div className="mb-28 flex flex-col items-center    ">
+          <div className="tiny:text-center sm:text-center md:flex lg:flex xl:flex 2xl:flex 3xl:flex items-center gap-7  ">
+            <div className="  w-[150px] h-[150px] mx-auto mb-5  custom-box-shadow rounded-[40px] relative mt-5 ">
               <Image
                 className="absolute left-1/2 -translate-x-1/2
                  top-1/2 -translate-y-1/2"
@@ -24,29 +24,13 @@ const BlockChain = () => {
                 height={100}
               />
             </div>
-            <h1 className="font-medium primary-color text-xl lg:w-[542px]">
+            <h1 className="font-medium primary-color text-xl md:w-[542px] lg:w-[542px] xl:w-[542px] 2xl:w-[542px] 3xl:w-[542px] ">
               Create your Web 3.0 identity effortlessly via Lens where you can
               showcase your expertise and experience.
             </h1>
           </div>
-          <div className="flex items-center gap-7   mb-5">
-            <div className="w-[150px] h-[150px]  custom-box-shadow rounded-[40px] relative ">
-              <Image
-                className="absolute left-1/2 -translate-x-1/2
-                 top-1/2 -translate-y-1/2"
-                src="/image/map.png"
-                alt="img"
-                width={100}
-                height={100}
-              />
-            </div>
-            <h1 className="font-medium primary-color text-xl lg:w-[612px]">
-              List your services or post a job directly on the blockchain,
-              creating a strong foundation for fruitful collaborations on-chain.
-            </h1>
-          </div>
-          <div className="flex items-center gap-7   mb-5">
-            <div className="w-[150px] h-[150px]  custom-box-shadow rounded-[40px] relative ">
+          <div className="tiny:text-center sm:text-center md:flex lg:flex xl:flex 2xl:flex 3xl:flex items-center gap-7  ">
+            <div className="  w-[150px] h-[150px] mx-auto mb-5  custom-box-shadow rounded-[40px] relative mt-5 ">
               <Image
                 className="absolute left-1/2 -translate-x-1/2
                  top-1/2 -translate-y-1/2"
@@ -56,28 +40,44 @@ const BlockChain = () => {
                 height={100}
               />
             </div>
-            <h1 className="font-medium primary-color text-xl lg:w-[600px]">
-              Experience secure and transparent payments, freelancers set their
-              rates and organisations pay seamlessly in cryptocurrency.
+            <h1 className="font-medium primary-color text-xl md:w-[542px] lg:w-[542px] xl:w-[542px] 2xl:w-[542px] 3xl:w-[542px] ">
+              Create your Web 3.0 identity effortlessly via Lens where you can
+              showcase your expertise and experience.
             </h1>
           </div>
-          <div className="flex items-center gap-7  ">
-            <div className="w-[150px] h-[150px]  custom-box-shadow rounded-[40px] relative ">
+          <div className="tiny:text-center sm:text-center md:flex lg:flex xl:flex 2xl:flex 3xl:flex items-center gap-7  ">
+            <div className="  w-[150px] h-[150px] mx-auto mb-5  custom-box-shadow rounded-[40px] relative mt-5 ">
               <Image
                 className="absolute left-1/2 -translate-x-1/2
                  top-1/2 -translate-y-1/2"
-                src="/image/map.png"
+                src="/image/user.png"
                 alt="img"
                 width={100}
                 height={100}
               />
             </div>
-            <h1 className="font-medium primary-color text-xl lg:w-[646px]">
-              We ensure secure escrow services and efficient dispute resolution,
-              benefiting both parties. Transactions are protected until
-              obligations are met, fostering trust and reliability for all.
+            <h1 className="font-medium primary-color text-xl md:w-[542px] lg:w-[542px] xl:w-[542px] 2xl:w-[542px] 3xl:w-[542px] ">
+              Create your Web 3.0 identity effortlessly via Lens where you can
+              showcase your expertise and experience.
             </h1>
           </div>
+          <div className="tiny:text-center sm:text-center md:flex lg:flex xl:flex 2xl:flex 3xl:flex items-center gap-7  ">
+            <div className="  w-[150px] h-[150px] mx-auto mb-5  custom-box-shadow rounded-[40px] relative mt-5 ">
+              <Image
+                className="absolute left-1/2 -translate-x-1/2
+                 top-1/2 -translate-y-1/2"
+                src="/image/user.png"
+                alt="img"
+                width={100}
+                height={100}
+              />
+            </div>
+            <h1 className="font-medium primary-color text-xl md:w-[542px] lg:w-[542px] xl:w-[542px] 2xl:w-[542px] 3xl:w-[542px] ">
+              Create your Web 3.0 identity effortlessly via Lens where you can
+              showcase your expertise and experience.
+            </h1>
+          </div>
+         
         </div>
       </Container>
     </section>

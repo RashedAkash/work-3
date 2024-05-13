@@ -7,7 +7,7 @@ import TopPicks from "@/components/topPicks/TopPicks";
 const page = () => {
   return (
     <div>
-      {/* <BlockChain /> */}
+      <BlockChain />
       <TopPicks />
       <LatestOpportunity />
       <Connect />
