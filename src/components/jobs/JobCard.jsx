@@ -2,10 +2,11 @@ import Image from "next/image";
 import { IoBagHandleOutline } from "react-icons/io5";
 
 const JobCard = ({ j }) => {
+  
   return (
-    <div className="bg-white rounded-[20px] w-[1005px] mb-5 h-[132px] p-5">
+    <div className="bg-white rounded-[20px] xl:w-[1005px] 2xl:w-[1005px] 3xl:w-[1005px] lg:w-[770px]  mb-5 xl:h-[132px] 2xl:h-[132px] 3xl:h-[132px] lg:h-[180px] p-5">
       <div className="flex justify-between items-center gap-7">
-        <div className="ml-5">
+        <div className="xl:ml-5 2xl:ml-5 3xl:ml-5">
           <Image src={j?.image} alt="img" width={47} height={47} />
           <h2 className="font-bold primary-color text-[12px]  mt-3">
             {j?.name}
@@ -23,7 +24,7 @@ const JobCard = ({ j }) => {
               />
             </div>
           </div>
-          <p className="text-[12px] w-[444px] font-medium primary-color">
+          <p className="text-[12px]  lg:w-[350px] xl:w-[444px] 2xl:w-[444px] 3xl:w-[444px] font-medium primary-color">
             {j?.text}
           </p>
         </div>
