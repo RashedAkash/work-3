@@ -79,8 +79,8 @@ const Jobs = () => {
             </div>
           </div>
         ))}
-        <dialog id="my_modal_3" className="modal">
-          <div className="modal-box">
+        <dialog id="my_modal_3" className="modal ">
+          <div className="rounded-[20px] w-[1110px] bg-[#00000010] px-[63px] py-[47px]">
             <form method="dialog">
               {/* If there is a button in form, it will close the modal */}
               <button
@@ -90,8 +90,56 @@ const Jobs = () => {
                 ✕
               </button>
             </form>
-            <h3 className="font-bold text-lg">Hello!</h3>
-            <p className="py-4">Press ESC key or click on ✕ button to close</p>
+            <div className="flex justify-between  gap-5">
+              <div className="bg-[#FFFFFF] custom-box-shadow w-[250px] h-[557px] rounded-[20px] p-5">
+                a
+              </div>
+              <div>
+                <h1 className=" primary-color text-[36px] font-semibold">
+                  Job Name
+                </h1>
+                <h2 className="font-semibold primary-color text-[18px]">
+                  Description
+                </h2>
+                <p className="text-xl font-semibold text-[#00000080]">
+                  [service description]
+                </p>
+              </div>
+              <div>
+                <div>
+                  <h2 className="font-semibold primary-color text-[18px]">
+                    Contract Type
+                  </h2>
+                  <p className="text-xl font-semibold text-[#00000080]">
+                    [service description][fixed / hourly]
+                  </p>
+                </div>
+                <div>
+                  <h2 className="font-semibold primary-color text-[18px]">
+                    Payment
+                  </h2>
+                  <p className="text-xl font-semibold text-[#00000080]">
+                    [amount in USD]
+                  </p>
+                </div>
+                <div>
+                  <h2 className="font-semibold primary-color text-[18px]">
+                    Paid In
+                  </h2>
+                  <p className="text-xl font-semibold text-[#00000080]">
+                    [select cryptocurrency]
+                  </p>
+                </div>
+                <div>
+                  <h2 className="font-semibold primary-color text-[18px]">
+                    Tags
+                  </h2>
+                  <p className="text-xl font-semibold text-[#00000080]">
+                    [select 1-3 tags]
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </dialog>
       </div>
