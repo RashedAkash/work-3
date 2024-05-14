@@ -6,11 +6,11 @@ const layout = ({ children }) => {
   return (
     <ContainerFulid>
       <Container>
-        <div className="grid grid-cols-12 gap-7">
-          <div className=" col-span-3">
+        <div className="flex  gap-7">
+          <div className=" ">
             <Sidebar />
           </div>
-          <div className=" col-span-9">{children}</div>
+          <div className=" ">{children}</div>
         </div>
       </Container>
     </ContainerFulid>
