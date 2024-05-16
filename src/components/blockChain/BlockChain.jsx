@@ -4,7 +4,7 @@ import Container from "../container/Container";
 
 const BlockChain = () => {
   return (
-    <section>
+    <section className="mt-28">
       <Container>
         <div className="  md:w-[1020px] lg:w-[750px]  xl:w-[1156px] 2xl:w-[1156px] 3xl:w-[1156px]  mx-auto mb-[40px]">
           <h1 className="primary-color text-center  tiny:text-[24px] sm:text-[24px]   font-semibold md:text-[30px] lg:text-[35px] xl:text-[51px] 2xl:text-[51px] 3xl:text-[51px]">
@@ -77,7 +77,6 @@ const BlockChain = () => {
               showcase your expertise and experience.
             </h1>
           </div>
-         
         </div>
       </Container>
     </section>

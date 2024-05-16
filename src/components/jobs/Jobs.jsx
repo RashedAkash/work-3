@@ -11,9 +11,8 @@ const Jobs = () => {
   console.log(modeldata);
   const showDetail = (id) => {
     const data = findJobData.find((job) => job.id === id);
-    setModeldata(data)
+    setModeldata(data);
     document.getElementById("my_modal_3").showModal();
-    
   };
   return (
     <section>
@@ -80,20 +79,81 @@ const Jobs = () => {
           </div>
         ))}
         <dialog id="my_modal_3" className="modal ">
-          <div className="rounded-[20px] w-[1110px] bg-[#00000010] px-[63px] py-[47px]">
-            <form method="dialog">
-              {/* If there is a button in form, it will close the modal */}
-              <button
-                className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
-                onClick={() => document.getElementById("my_modal_3").close()}
-              >
-                ✕
-              </button>
-            </form>
+          <div className="rounded-[20px]   xl:w-[1110px] 2xl:w-[1110px] 3xl:w-[1110px]  bg-[white] px-[63px] py-[47px]">
             <div className="flex justify-between  gap-5">
-              <div className="bg-[#FFFFFF] custom-box-shadow w-[250px] h-[557px] rounded-[20px] p-5">
-                a
+              <div className="bg-[#FFFFFF50] custom-box-shadow w-[250px] h-[557px] rounded-[20px] p-5">
+                <div className="mb-4 flex flex-col justify-center items-center  rounded-[16px]  ">
+                  <Image
+                    src={modeldata?.image}
+                    alt="img"
+                    width={65}
+                    height={65}
+                  />
+                  <p className="modal-title">{modeldata?.name}</p>
+                </div>
+                <div>
+                  <h2 className="modal-title text-center mb-3">Job Title</h2>
+                </div>
+                <div className="mb-2 flex justify-center items-center gap-4 ">
+                  <div>
+                    <h2 className="modal-title">Following</h2>
+                    <p className="modal-text">100</p>
+                  </div>
+                  <div>
+                    <h2 className="modal-title">Following</h2>
+                    <p className="modal-text">100</p>
+                  </div>
+                </div>
+                <div className="mb-2">
+                  <h2 className="modal-title">About me</h2>
+                  <p className="modal-text">
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+                    bla bla
+                  </p>
+                </div>
+                <div className="mb-2">
+                  <h2 className="modal-title">Skilss</h2>
+                  <p className="modal-text">[skill] [skill] [skill]</p>
+                </div>
+                <div lassName="mb-2">
+                  <h2 className="modal-title mb-1">Links</h2>
+                  <Image src="/image/mx.png" alt="img" width={14} height={14} />
+                </div>
+                <div>
+                  <h2 className="modal-title">Accepted Tokens</h2>
+                  <div className="flex items-center gap-3 mt-1">
+                    <div className="bg-[#26A17B] w-[28px] h-[28px] rounded-full relative">
+                      <Image
+                        src="/image/t.png"
+                        alt="img"
+                        width={16}
+                        height={16}
+                        className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 "
+                      />
+                    </div>
+                    <div className="bg-[#26A17B] w-[28px] h-[28px] rounded-full relative">
+                      <Image
+                        src="/image/t.png"
+                        alt="img"
+                        width={16}
+                        height={16}
+                        className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 "
+                      />
+                    </div>
+                    <div className="bg-[#26A17B] w-[28px] h-[28px] rounded-full relative">
+                      <Image
+                        src="/image/t.png"
+                        alt="img"
+                        width={16}
+                        height={16}
+                        className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 "
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <div>
                 <h1 className=" primary-color text-[36px] font-semibold">
                   Job Name
@@ -139,6 +199,15 @@ const Jobs = () => {
                   </p>
                 </div>
               </div>
+              <form method="dialog">
+                {/* If there is a button in form, it will close the modal */}
+                <button
+                  className="btn btn-sm btn-circle btn-ghost "
+                  onClick={() => document.getElementById("my_modal_3").close()}
+                >
+                  ✕
+                </button>
+              </form>
             </div>
           </div>
         </dialog>
